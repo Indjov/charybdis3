@@ -6,6 +6,11 @@ used with an IRCv3-capable services implementation such as [Atheme][atheme] or [
    [atheme]: http://www.atheme.net/
    [anope]: http://www.anope.org/
 
+# cyrillic support for nicks
+
+This version has implemented cyrillic alphabet support for nicknames in CP-1251 encoding.
+Further there are changes from version 3.5.2 to suit the Fewona IRC Network.
+
 # necessary requirements
 
  * A supported platform

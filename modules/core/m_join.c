@@ -1015,7 +1015,7 @@ check_channel_name_loc(struct Client *source_p, const char *name)
 	if(ConfigChannel.only_ascii_channels)
 	{
 		for(p = name; *p; ++p)
-			if(*p < 33 || *p > 126)
+			if((*p < 33 || *p > 126) && !IsCyrChar(*p))
 				return 0;
 	}
 

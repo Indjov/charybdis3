@@ -1,5 +1,10 @@
 ======================
 
+Rix @ 29 May 2016
+- Added cyrillic alphabet (CP-1251) to the 'only_ascii_channels = yes' option.
+
+======================
+
 Rix @ 27 May 2016
 - Added cyrillic support (CP-1251) for nicknames.
 
